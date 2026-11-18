@@ -47,7 +47,7 @@ public class HomePanel extends JPanel {
       selectPanel.setBackground(Color.WHITE);
       selectPanel.setBorder(BorderFactory.createTitledBorder("Step 1: Choose Your Class & Lesson"));
       selectPanel.add(new JLabel("1. Select Class / Subject:"));
-      this.cbSubject = new JComboBox(new String[]{"AL SFT (Science for Technology)", "AL ICT"});
+      this.cbSubject = new JComboBox(new String[]{"AL SFT (Science for Technology)", "AL ICT (Information Comm. Tech.)","AL ET (Engineering Tech.)","AL BST (Bio System Tech.)"});
       selectPanel.add(this.cbSubject);
       selectPanel.add(new JLabel("2. Select Target Year:"));
       this.cbYear = new JComboBox(new String[]{"2026", "2027", "2028"});
